@@ -1,10 +1,10 @@
 import "./Service.css";
 import Card from "./Card";
 
-const bgdesign = require("./image/bg1.svg");
-const bgspecialcontent = require("./image/bg2.svg");
-const bguxresearch = require("./image/bg3.svg");
-const bgwebdevelopment = require("./image/bg4.svg");
+import bgdesign from "./image/bg1.svg";
+import bgspecialcontent from "./image/bg2.svg";
+import bguxresearch from "./image/bg3.svg";
+import bgwebdevelopment from "./image/bg4.svg";
 
 function Service() {
   return (
