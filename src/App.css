@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter-Medium.ttf) format('truetype');
+}
+
+.App {
+  background: linear-gradient(180deg, #121215 20.31%, #010729 100%);
+}
+
+
+@keyframes loop {
+  0% {
+    transform: translateX(150%);
+    -webkit-transform: translateX(150%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    transform: translateX(30%);
+    -webkit-transform: translateX(30%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes clippath {
+
+  0%,
+  100% {
+    clip-path: inset(0 0 95% 0);
+  }
+
+  25% {
+    clip-path: inset(0 95% 0 0);
+  }
+
+  50% {
+    clip-path: inset(95% 0 0 0);
+  }
+
+  75% {
+    clip-path: inset(0 0 0 95%);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(5px)
+  }
+
+  100% {
+    transform: translateY(-5px)
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

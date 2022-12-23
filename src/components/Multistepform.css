@@ -1,0 +1,127 @@
+.form-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-form {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+fieldset {
+    margin: 0;
+    padding: 23px;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-shadow: 0 8px 10px #030b2e;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    z-index: 1;
+    opacity: 1;
+    transition: all 0.5s ease-out 0.2s;
+    transform: scale(1);
+    animation: enable 0.5s ease-out 0.2s;
+    height: 55px;
+}
+
+@keyframes enable {
+    0% {
+        opacity: 0;
+        transform: scale(0.2);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.items {
+    margin-top: 15px;
+    margin-bottom: 1rem;
+    margin-right: 15px;
+}
+
+fieldset .inputtext {
+    height: 40px;
+    border: none;
+    outline: none;
+
+}
+
+
+.active-li {
+    list-style: none;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: 8px;
+    height: 8px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.itemlist {
+    list-style: none;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: 8px;
+    height: 8px;
+    margin: 10px 0;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: #4e4e4e;
+}
+
+.icon {
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.right {
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+
+.right:hover {
+    color: black
+}
+
+/*
+
+.icon {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    transition: all 0.4s ease;
+    left: 10px;
+} */
