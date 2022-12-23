@@ -6,7 +6,8 @@ import { Person } from "react-bootstrap-icons";
 import { Cart3 } from "react-bootstrap-icons";
 import Login from "./Login";
 import Cart from "./Cart";
-const myLogo = require("./image/logo.svg");
+import myLogo from "./image/logo.svg";
+
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
