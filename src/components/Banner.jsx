@@ -1,6 +1,6 @@
 import "./Banner.css";
 import { NavLink } from "react-router-dom";
-const imgbanner = require("./image/banner.svg");
+import imgbanner from "./image/banner.svg";
 function Banner() {
   return (
     <>
