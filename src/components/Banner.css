@@ -1,0 +1,62 @@
+.header-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 91px;
+    width: 20cm;
+    background: linear-gradient(92.71deg, #FFFFFF -2.36%, #77C4DD 103.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation:
+        typing 1.5s forwards;
+
+}
+
+.paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #C6C6C6;
+}
+
+.btn-banner {
+    background: #573b8a;
+    border-radius: 8px;
+}
+
+.header-img {
+    right: 0;
+}
+
+.btn-get-started {
+    position: relative;
+}
+
+.btn-get-started:hover::before {
+    content: "";
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid gold;
+    transition: all .5s;
+    animation: clippath 3s infinite linear
+}
+
+@media screen and (max-width: 992px) {
+    .header-img {
+        right: auto;
+        position: relative !important;
+    }
+
+}
+
+.mybanner-img {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}

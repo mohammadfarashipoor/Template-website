@@ -1,0 +1,21 @@
+.service-box {
+    margin: 0 auto;
+}
+
+.our-service {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 992px) {
+    .header-img {
+        right: auto;
+        position: relative !important;
+    }
+}
