@@ -60,3 +60,11 @@
 .mybanner-img {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
+.mybanner-img>svg {
+    width: 100%;
+}
+
+.btn-get-started {
+    width: 18vw;
+}

@@ -11,8 +11,8 @@
 	background-color: #121215;
 }
 
-.logo {
-	width: 5%
+.logo>svg {
+	width: 80%
 }
 
 .Projects {
