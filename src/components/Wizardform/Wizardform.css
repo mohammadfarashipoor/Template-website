@@ -89,7 +89,7 @@ fieldset {
 }
 
 .btn-Content {
-    width: 140px;
+    width: 25vw;
     height: 45px;
     color: #fff;
     background: #1abc9c;
@@ -200,6 +200,7 @@ fieldset {
     flex-direction: column;
     justify-content: space-evenly;
     color: #ffff;
+    align-items: center;
 }
 
 .items-about {
@@ -319,7 +320,7 @@ fieldset .inputtext {
     outline: none;
     border-radius: 6px;
     padding: 10px;
-    width: 145%;
+    width: 50vw;
 }
 
 /*end FormTow */
@@ -335,7 +336,7 @@ fieldset .inputtext {
 
 .form-item input {
     display: block;
-    width: 400px;
+    width: 50vw;
     height: 40px;
     border: solid 1px #ccc;
     border-radius: 8px;
