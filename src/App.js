@@ -7,7 +7,7 @@ import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 import Rotatetext from "./components/Rotatetext";
 import Service from "./components/Service";
-import Multistepform from "./components/Multistepform";
+import Wizardform from "./components/Wizardform/Wizardform";
 import Menucard from "./components/Menucard";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Rotatetext />
       <Menucard />
       <Service />
-      <Multistepform />
+      <Wizardform />
     </div>
   );
 }
