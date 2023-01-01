@@ -1,0 +1,132 @@
+.cart-nav {
+    position: absolute;
+    top: 3.5em;
+    padding-top: 20px !important;
+    z-index: 2;
+    background: white;
+    color: black;
+    padding: 0.5em;
+    border-radius: 8px;
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: initial;
+
+}
+
+.cart-nav:hover {
+    display: flex;
+
+}
+
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+}
+
+.shopping-cart-total {
+    float: right;
+}
+
+.shopping-cart-items {
+    padding-left: 0;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.lighter-text {
+    color: #ABB0BE;
+}
+
+.main-color-text {
+    color: #6394F8;
+}
+
+
+.item-price {
+    color: #6394F8;
+    margin-right: 8px;
+}
+
+/* li {
+    margin-bottom: 18px;
+  } */
+
+.cart-img {
+    float: left;
+    margin-right: 12px;
+    width: 35%;
+}
+
+.item-name {
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+.shopping-cart:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: white;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.cart-icon {
+    color: #515783;
+    font-size: 24px;
+    margin-right: 7px;
+    float: left;
+}
+
+.button-cart {
+    background: #573b8a;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+    border: none;
+}
+
+.button-cart:hover {
+    background: lighten(#ffff, 3%);
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
