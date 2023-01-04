@@ -1,9 +1,7 @@
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-import { List } from "react-bootstrap-icons";
+import { List, Person, Cart3 } from "react-bootstrap-icons";
 import { useState } from "react";
-import { Person } from "react-bootstrap-icons";
-import { Cart3 } from "react-bootstrap-icons";
 import Login from "./Login";
 import Cart from "./Cart";
 import Logo from "./image/logo";

@@ -3,17 +3,17 @@ import "./Wizardform.css";
 import FormOne from "./FormOne";
 import FormTow from "./FormTow";
 import FormThree from "./FormThree";
-const infobg = require("./image/infobg.png");
 const reviewbg = require("./image/reviewbg.png");
 const aboutbg = require("./image/aboutbg.png");
+const infobg = require("./image/infobg.png");
 
+const slides = [
+  { title: "about", component: <FormOne />, bg: aboutbg },
+  { title: "reveiw", component: <FormTow />, bg: reviewbg },
+  { title: "info", component: <FormThree />, bg: infobg },
+];
 function Multistepform() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const slides = [
-    { title: "about", component: <FormOne />, bg: aboutbg },
-    { title: "reveiw", component: <FormTow />, bg: reviewbg },
-    { title: "info", component: <FormThree />, bg: infobg },
-  ];
   const slideNext = (e) => {
     setCurrentSlide((prev) => {
       return prev + 1 === slides.length ? 0 : currentSlide + 1;
@@ -57,7 +57,7 @@ function Multistepform() {
                 <img
                   className="Contentbg"
                   src={slides[currentSlide].bg}
-                  alt="infobg"
+                  alt={slides[currentSlide].title}
                 />
               </figure>
               {slides[currentSlide].component}
